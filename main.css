@@ -1,0 +1,124 @@
+@font-face {
+   font-family: "Atkinson Hyperlegible";
+   src: url('./assets/atkinson/ah_regular.eot?#iefix') format('embedded-opentype'), 
+	     url('./assets/atkinson/ah_regular.woff') format('woff'), 
+	     url('./assets/atkinson/ah_regular.ttf')  format('truetype'),
+	     url('./assets/atkinson/ah_regular.svg#svgFontName') format('svg');
+}
+@font-face {
+   font-family: "Atkinson Hyperlegible";
+   src: url('./assets/atkinson/ah_bold.eot?#iefix') format('embedded-opentype'), 
+	     url('./assets/atkinson/ah_bold.woff') format('woff'), 
+	     url('./assets/atkinson/ah_bold.ttf')  format('truetype'),
+	     url('./assets/atkinson/ah_bold.svg#svgFontName') format('svg');
+   font-style: normal;
+	 font-weight: bold;
+}
+@font-face {
+   font-family: "Atkinson Hyperlegible";
+   src: url('./assets/atkinson/ah_italic.eot?#iefix') format('embedded-opentype'), 
+	     url('./assets/atkinson/ah_italic.woff') format('woff'), 
+	     url('./assets/atkinson/ah_italic.ttf')  format('truetype'),
+	     url('./assets/atkinson/ah_italic.svg#svgFontName') format('svg');
+   font-style: italic;
+	 font-weight: normal;
+}
+@font-face {
+   font-family: "Atkinson Hyperlegible";
+   src: url('./assets/atkinson/ah_bolditalic.eot?#iefix') format('embedded-opentype'), 
+	     url('./assets/atkinson/ah_bolditalic.woff') format('woff'), 
+	     url('./assets/atkinson/ah_bolditalic.ttf')  format('truetype'),
+	     url('./assets/atkinson/ah_bolditalic.svg#svgFontName') format('svg');
+   font-style: italic;
+	 font-weight: bold;
+}
+
+body {
+	font-size: 18px;
+	margin: 0;
+	padding: 1em;
+	font-family: "Atkinson Hyperlegible";
+	background: linear-gradient(0deg, #F4538A 0%, #F5DD61 30%, #59D5E0 100%);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	overflow-wrap: break-word;
+}
+
+main {
+  box-sizing: border-box;
+	display: block;
+	max-width: 500px;
+	border-radius: 30px;
+	margin: 0 auto;
+	text-align: center;
+	background: rgba(255, 255, 255, .5);
+	padding-top: 40px;
+	padding-bottom: 25px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.now {
+	margin-top: 2em;
+	text-align: left !important;
+}
+
+li {
+	line-height: 140%;
+}
+
+a:link,
+a:visited {
+	color: #000;
+	text-decoration-color: #555;
+	text-decoration: none;
+	border-bottom: 2px dotted #000;
+}
+a:hover,
+a:active {
+	color: #000;
+	text-decoration-color: #000;
+	text-decoration: none;
+	border-bottom: 2px solid #000;
+}
+
+hr {
+	border-top: dotted 2px #000;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+	background-color: transparent;
+	margin: 30px 0;
+	
+}
+
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding: 10px 10px;
+}
+
+.top {
+  	line-height: 150%;
+}
+
+.small {
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+.tiny {
+  font-size: 12px;
+  font-style: italic;
+  text-transform: lowercase;
+  margin-top: 2em;
+}
+
+.flags {
+  border-radius: 6px;
+  width: 24px;
+  height: 18px;
+  filter: brightness(110%);
+}
