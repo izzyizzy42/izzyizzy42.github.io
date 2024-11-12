@@ -1,0 +1,146 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-color: #202528;
+  width: 400px;
+  margin: auto;
+}
+
+@font-face {
+font-family: "Atkinson Hyperlegible";
+src: url('../atkinson/ah_regular.eot?#iefix') format('embedded-opentype'), 
+    url('../atkinson/ah_regular.woff') format('woff'), 
+    url('../atkinson/ah_regular.ttf')  format('truetype'),
+    url('../atkinson/ah_regular.svg#svgFontName') format('svg');
+ }
+ @font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: url('../atkinson/ah_bold.eot?#iefix') format('embedded-opentype'), 
+        url('../atkinson/ah_bold.woff') format('woff'), 
+        url('../atkinson/ah_bold.ttf')  format('truetype'),
+        url('../atkinson/ah_bold.svg#svgFontName') format('svg');
+    font-style: normal;
+    font-weight: bold;
+ }
+ @font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: url('../atkinson/ah_italic.eot?#iefix') format('embedded-opentype'), 
+        url('../atkinson/ah_italic.woff') format('woff'), 
+        url('../atkinson/ah_italic.ttf')  format('truetype'),
+        url('../atkinson/ah_italic.svg#svgFontName') format('svg');
+    font-style: italic;
+    font-weight: normal;
+ }
+ @font-face {
+    font-family: "Atkinson Hyperlegible";
+    src: url('../atkinson/ah_bolditalic.eot?#iefix') format('embedded-opentype'), 
+        url('../atkinson/ah_bolditalic.woff') format('woff'), 
+        url('../atkinson/ah_bolditalic.ttf')  format('truetype'),
+        url('../atkinson/ah_bolditalic.svg#svgFontName') format('svg');
+    font-style: italic;
+    font-weight: bold;
+ }
+
+@media screen and (max-width: 600px) {
+
+  .circle {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+  
+  p {
+    font-size: 28px;
+  }
+  
+  .sub {
+    font-size: 22px;
+  }
+
+  .tiny {
+    font-size: 16px;
+  }
+  
+  span {
+    font-size: 28px;
+  }
+
+  .button {
+    font-size: 24px;
+    padding: 4px 10px;
+  }
+
+
+}
+
+@media screen and (min-width: 601px) {
+
+  p {
+    font-size: 18px;
+  }
+  
+  .sub {
+    font-size: 18px;
+  }
+
+  .tiny {
+    font-size: 12px;
+  }
+  
+  span {
+    font-size: 18px;
+  }
+
+  .button {
+    font-size: 18px;
+    padding: 4px 10px;
+  }
+}
+
+h1 {
+  font-weight: bold;
+  color: #ffffff;
+  font-family: "Atkinson Hyperlegible";
+}
+
+p {
+  font-weight: normal;
+  color: #ffffff;
+  font-family: "Atkinson Hyperlegible";
+}
+
+.sub {
+  font-style: italic;
+  color: #4f545a;
+}
+
+.tiny {
+  font-style: italic;
+  color: #4f545a;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding: 10px 10px;
+}
+
+span {
+  font-weight: normal;
+  color: #ffffff;
+  font-family: "Atkinson Hyperlegible"
+}
+
+.button {
+  background-color: #B51700;
+  border: 1px solid #F7C358;
+  color: #F7C358;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="la">
+
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=0.8">
+    <link href="latin.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="spqr.png">
+		<title>Salve!</title>
+		
+		<script>
+    function generate_verb() {
+      
+      // VOICE
+      voice_num = Math.floor((Math.random() * 2) + 1);
+      if (voice_num == 1) {
+        voice = "activum";
+      }
+      else if (voice_num == 2) {
+        voice = "passivum";
+      } 
+      
+      // MODE
+      mode_num = Math.floor((Math.random() * 4) + 1);
+      if (mode_num == 1) {
+        mode = "infinitivus";
+      }
+      else if (mode_num == 2) {
+        mode = "indicativus";
+      }
+      else if (mode_num == 3) {
+        mode = "coniunctivus";
+      }
+      else if (mode_num == 4) {
+        mode = "imperativus";
+      }
+      
+      // TIME
+      if (mode == "infinitivus") {
+        time_num = Math.floor((Math.random() * 3) + 1);
+        if (time_num == 1) {
+          time = "praesens";
+        }
+        else if (time_num == 2) {
+          time = "perfectum";
+        }
+        else if (time_num == 3) {
+          time = "futurum";
+        }
+      }
+      else if (mode == "indicativus") {
+        time_num = Math.floor((Math.random() * 6) + 1);
+        if (time_num == 1) {
+          time = "praesens";
+        }
+        else if (time_num == 2) {
+          time = "perfectum";
+        }
+        else if (time_num == 3) {
+          time = "futurum";
+        }
+        else if (time_num == 4) {
+          time = "imperfectum";
+        }
+        else if (time_num == 5) {
+          time = "plusquamperfectum";
+        }   
+        else if (time_num == 6) {
+          time = "futurum perfectum";
+        }
+      }
+      else if (mode == "coniunctivus") {
+        time_num = Math.floor((Math.random() * 4) + 1);
+        if (time_num == 1) {
+          time = "praesens";
+        }
+        else if (time_num == 2) {
+          time = "perfectum";
+        }
+        else if (time_num == 3) {
+          time = "imperfectum";
+        }
+        else if (time_num == 4) {
+          time = "plusquamperfectum";
+        }
+      }
+      else if (mode == "imperativus") {
+        time = "praesens";
+      }
+      
+       // NUMBER
+      if (mode == "infinitivus") {
+        number = "";
+      }
+      else {
+        number_num = Math.floor((Math.random() * 2) + 1);
+        if (number_num == 1) {
+          number = "singularis";
+        }
+        else if (number_num == 2) {
+          number = "pluralis";
+        }
+      }
+    
+      // PERSON
+      if ((mode == "imperativus") || mode == ("infinitivus")) {
+        person = "";
+      }
+      else {
+        person_num = Math.floor((Math.random() * 3) + 1);
+        person = person_num.toString()
+      }
+      
+      return voice.concat(" ", mode, " ", time, " ", number, " ", person);
+    
+    }
+    
+    </script>
+		
+  </head>
+  
+  
+  <body>
+    <p><img class="circle" src="spqr.png"></p>
+    <h1>CONIUGATIO VERBORUM</h1>
+
+    <button type="button" class="button" 
+    onclick="document.getElementById('verbs').innerHTML = generate_verb()">
+    da mihi!</button>
+
+    <p class="sub"><i>genus modus tempus numerus persona</i><br />
+    <span id="verbs">></span></p>
+    
+    <p class="tiny" align=center>S·T·T·L</p>
+
+  </body>
+</html>
