@@ -34,9 +34,9 @@
 }
 
 body {
-	font-size: 18px;
+	font-size: 1.125em;
 	margin: 0;
-	padding: 1em;
+	padding: 1.2em;
 	font-family: "Atkinson Hyperlegible";
 	background: linear-gradient(0deg, #F4538A 0%, #F5DD61 30%, #59D5E0 100%);
 	background-repeat: no-repeat;
@@ -121,4 +121,19 @@ hr {
   width: 24px;
   height: 18px;
   filter: brightness(110%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 24px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 1.375em; /* 22px --> 22 ÷ 16 = 1.375 */
+  line-height: 1.0909em; /* 24px --> 24 ÷ 22 = 1.090909(09) */
+}
+  
+h2 {
+  font-size: 1.25em; /* 20px --> 20 ÷ 16 = 1.25 */
+  line-height: 1.2em; /* 24px --> 24 ÷ 20 = 1.2 */
 }
