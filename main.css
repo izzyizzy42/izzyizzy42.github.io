@@ -67,6 +67,10 @@ main {
 	text-align: left !important;
 }
 
+.center {
+	text-align: center !important;
+}
+
 li {
 	line-height: 140%;
 }
