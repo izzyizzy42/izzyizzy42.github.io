@@ -2,126 +2,98 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
-body {
-  background-color: #202528;
-  width: 400px;
-  margin: auto;
-}
-
-@font-face {
-font-family: "Romanica";
-src: url('../assets/latin/romanica.woff') format('woff'), 
-    url('../assets/latin/romanica.ttf')  format('truetype');
-    font-style: normal;
-    font-weight: normal;
- }
- @font-face {
-    font-family: "SPQR";
-    src: url('../assets/latin/spqr.woff') format('woff'), 
-        url('../assets/latin/spqr.ttf')  format('truetype');
-    font-style: normal;
-    font-weight: normal;
- }
-
-@media screen and (max-width: 600px) {
-
+   body {
+    background-color: #202528;
+    width: 400px;
+    margin: auto;
+  }
+  
+  @font-face {
+  font-family: "Romanica";
+  src: url('../assets/latin/romanica.woff') format('woff'), 
+      url('../assets/latin/romanica.ttf')  format('truetype');
+      font-style: normal;
+      font-weight: normal;
+   }
+   @font-face {
+      font-family: "SPQR";
+      src: url('../assets/latin/spqr.woff') format('woff'), 
+          url('../assets/latin/spqr.ttf')  format('truetype');
+      font-style: normal;
+      font-weight: normal;
+   }
+  
   .circle {
     text-align: center;
   }
-
+  
   h1 {
     font-size: 30px;
   }
   
   p {
-    font-size: 28px;
+    font-size: 20px;
   }
   
   .sub {
-    font-size: 22px;
+    font-size: 20px;
   }
-
+  
   .tiny {
-    font-size: 16px;
+    font-size: 14px;
   }
   
   span {
-    font-size: 28px;
+    font-size: 20px;
   }
-
+  
   .button {
-    font-size: 24px;
+    font-size: 18px;
     padding: 4px 10px;
   }
-
-
-}
-
-@media screen and (min-width: 601px) {
-
+  
+  h1 {
+    font-weight: bold;
+    color: #ffffff;
+    font-family: "SPQR";
+  }
+  
   p {
-    font-size: 18px;
+    font-weight: normal;
+    color: #ffffff;
+    font-family: "Romanica";
   }
   
   .sub {
-    font-size: 18px;
+    font-style: italic;
+    color: #4f545a;
   }
-
+  
   .tiny {
-    font-size: 12px;
+    color: #4f545a;
+    text-align: center;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding: 10px 10px;
   }
   
   span {
-    font-size: 18px;
+    font-weight: normal;
+    color: #ffffff;
+    font-family: "Romanica"
   }
-
+  
   .button {
-    font-size: 18px;
-    padding: 4px 10px;
+    background-color: #B51700;
+    border: 1px solid #F7C358;
+    color: #F7C358;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: Romanica;
   }
-}
-
-h1 {
-  font-weight: bold;
-  color: #ffffff;
-  font-family: "SPQR";
-}
-
-p {
-  font-weight: normal;
-  color: #ffffff;
-  font-family: "Romanica";
-}
-
-.sub {
-  font-style: italic;
-  color: #4f545a;
-}
-
-.tiny {
-  color: #4f545a;
-  text-align: center;
-}
-
-.circle {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  padding: 10px 10px;
-}
-
-span {
-  font-weight: normal;
-  color: #ffffff;
-  font-family: "Romanica"
-}
-
-.button {
-  background-color: #B51700;
-  border: 1px solid #F7C358;
-  color: #F7C358;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-family: Romanica;
-}
+  
