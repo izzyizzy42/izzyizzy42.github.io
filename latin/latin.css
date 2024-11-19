@@ -9,38 +9,18 @@ body {
 }
 
 @font-face {
-font-family: "Atkinson Hyperlegible";
-src: url('../atkinson/ah_regular.eot?#iefix') format('embedded-opentype'), 
-    url('../atkinson/ah_regular.woff') format('woff'), 
-    url('../atkinson/ah_regular.ttf')  format('truetype'),
-    url('../atkinson/ah_regular.svg#svgFontName') format('svg');
- }
- @font-face {
-    font-family: "Atkinson Hyperlegible";
-    src: url('../atkinson/ah_bold.eot?#iefix') format('embedded-opentype'), 
-        url('../atkinson/ah_bold.woff') format('woff'), 
-        url('../atkinson/ah_bold.ttf')  format('truetype'),
-        url('../atkinson/ah_bold.svg#svgFontName') format('svg');
+font-family: "Romanica";
+src: url('../assets/latin/romanica.woff') format('woff'), 
+    url('../assets/latin/romanica.ttf')  format('truetype');
     font-style: normal;
-    font-weight: bold;
- }
- @font-face {
-    font-family: "Atkinson Hyperlegible";
-    src: url('../atkinson/ah_italic.eot?#iefix') format('embedded-opentype'), 
-        url('../atkinson/ah_italic.woff') format('woff'), 
-        url('../atkinson/ah_italic.ttf')  format('truetype'),
-        url('../atkinson/ah_italic.svg#svgFontName') format('svg');
-    font-style: italic;
     font-weight: normal;
  }
  @font-face {
-    font-family: "Atkinson Hyperlegible";
-    src: url('../atkinson/ah_bolditalic.eot?#iefix') format('embedded-opentype'), 
-        url('../atkinson/ah_bolditalic.woff') format('woff'), 
-        url('../atkinson/ah_bolditalic.ttf')  format('truetype'),
-        url('../atkinson/ah_bolditalic.svg#svgFontName') format('svg');
-    font-style: italic;
-    font-weight: bold;
+    font-family: "SPQR";
+    src: url('../assets/latin/spqr.woff') format('woff'), 
+        url('../assets/latin/spqr.ttf')  format('truetype');
+    font-style: normal;
+    font-weight: normal;
  }
 
 @media screen and (max-width: 600px) {
@@ -104,13 +84,13 @@ src: url('../atkinson/ah_regular.eot?#iefix') format('embedded-opentype'),
 h1 {
   font-weight: bold;
   color: #ffffff;
-  font-family: "Atkinson Hyperlegible";
+  font-family: "SPQR";
 }
 
 p {
   font-weight: normal;
   color: #ffffff;
-  font-family: "Atkinson Hyperlegible";
+  font-family: "Romanica";
 }
 
 .sub {
@@ -119,8 +99,8 @@ p {
 }
 
 .tiny {
-  font-style: italic;
   color: #4f545a;
+  text-align: center;
 }
 
 .circle {
@@ -133,7 +113,7 @@ p {
 span {
   font-weight: normal;
   color: #ffffff;
-  font-family: "Atkinson Hyperlegible"
+  font-family: "Romanica"
 }
 
 .button {
@@ -143,4 +123,5 @@ span {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-family: Romanica;
 }
