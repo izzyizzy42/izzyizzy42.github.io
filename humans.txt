@@ -1,11 +1,9 @@
 /* TEAM */ 
 This website was built by Izzy! in 2024 in the Netherlands.
-Drop me a line on the Fediverse: @jackalope@cryptid.house
 
 /* THANKS */
 Robin, Ross, Aisha, and Alis. Y'all got my digital back.
 
 /* SITE */
-This humans.txt page was last updated on 13 November 2024.
+This humans.txt page was last updated on 19 November 2024.
 Languages: English / Dutch
-The site was lovingly based off now.garden.
