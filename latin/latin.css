@@ -1,99 +1,87 @@
-/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
+@font-face {
+font-family: "Romanica";
+src: url('../assets/latin/romanica.woff') format('woff'), 
+    url('../assets/latin/romanica.ttf')  format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+@font-face {
+  font-family: "SPQR";
+  src: url('../assets/latin/spqr.woff') format('woff'), 
+      url('../assets/latin/spqr.ttf')  format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
 
-   body {
-    background-color: #202528;
-    width: 500px;
-    margin: auto;
-  }
+body {
+  font-size: 1.25em;
+  margin: 0;
+  padding: 1.2em;
+  background-color: #B51700;
+  height: 100%;
+  overflow-wrap: break-word;
+}
   
-  @font-face {
+main {
+  box-sizing: border-box;
+  display: block;
+  max-width: 500px;
+  border-radius: 30px;
+  margin: 0 auto;
+  background-color: #202528;
+  padding: 45px;
+}
+  
+h1 {
+  font-weight: bold;
+  color: #ffffff;
+  font-family: "SPQR";
+  font-size: 1.55em;
+  text-align: center;
+}
+
+p {
+  font-weight: normal;
+  color: #ffffff;
   font-family: "Romanica";
-  src: url('../assets/latin/romanica.woff') format('woff'), 
-      url('../assets/latin/romanica.ttf')  format('truetype');
-      font-style: normal;
-      font-weight: normal;
-   }
-   @font-face {
-      font-family: "SPQR";
-      src: url('../assets/latin/spqr.woff') format('woff'), 
-          url('../assets/latin/spqr.ttf')  format('truetype');
-      font-style: normal;
-      font-weight: normal;
-   }
-  
-  .circle {
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 30px;
-  }
-  
-  p {
-    font-size: 20px;
-  }
-  
-  .sub {
-    font-size: 20px;
-  }
-  
-  .tiny {
-    font-size: 14px;
-  }
-  
-  span {
-    font-size: 20px;
-  }
-  
-  .button {
-    font-size: 18px;
-    padding: 4px 10px;
-  }
-  
-  h1 {
-    font-weight: bold;
-    color: #ffffff;
-    font-family: "SPQR";
-  }
-  
-  p {
-    font-weight: normal;
-    color: #ffffff;
-    font-family: "Romanica";
-  }
-  
-  .sub {
-    font-style: italic;
-    color: #4f545a;
-  }
-  
-  .tiny {
-    color: #4f545a;
-    text-align: center;
-  }
-  
-  .circle {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    padding: 10px 10px;
-  }
-  
-  span {
-    font-weight: normal;
-    color: #ffffff;
-    font-family: "Romanica"
-  }
-  
-  .button {
-    background-color: #B51700;
-    border: 1px solid #F7C358;
-    color: #F7C358;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: Romanica;
-  }
+  font-size: 1.25em;
+}
+
+.sub {
+  font-style: italic;
+  color: #4f545a;
+  font-size: 1em;
+}
+
+.tiny {
+  color: #4f545a;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding: 10px 10px;
+  text-align: center !important;
+}
+
+span {
+  font-weight: normal;
+  color: #ffffff;
+  font-family: "Romanica"
+}
+
+.button {
+  background-color: #B51700;
+  border: 1px solid #F7C358;
+  color: #F7C358;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Romanica;
+  font-size: 0.9em;
+  padding: 4px 10px;
+}
   
