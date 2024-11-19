@@ -29,14 +29,17 @@ main {
   border-radius: 30px;
   margin: 0 auto;
   background-color: #202528;
-  padding: 45px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
 }
   
 h1 {
   font-weight: bold;
   color: #ffffff;
   font-family: "SPQR";
-  font-size: 1.55em;
+  font-size: 1.5em;
   text-align: center;
 }
 
