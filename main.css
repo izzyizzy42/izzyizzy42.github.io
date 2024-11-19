@@ -141,3 +141,10 @@ h2 {
   font-size: 1.25em; /* 20px --> 20 ÷ 16 = 1.25 */
   line-height: 1.2em; /* 24px --> 24 ÷ 20 = 1.2 */
 }
+
+.flags {
+	border-radius: 6px;
+	width: 24px;
+	height: 18px;
+	filter: brightness(110%);
+  }
