@@ -63,9 +63,9 @@ main {
 }
 
 .left {
-	margin-top: 2em;
+	margin-top: 2.5em;
 	text-align: left !important;
-	line-height: 1.3em;
+	line-height: 120%;
 }
 
 .center {
