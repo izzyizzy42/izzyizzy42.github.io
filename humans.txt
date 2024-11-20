@@ -1,5 +1,6 @@
 /* TEAM */ 
 This website was built by Izzy! in 2024 in the Netherlands.
+Contact me at izzy [at] sttl [dot] boo.
 
 /* THANKS */
 Robin, Ross, Aisha, and Alis. Y'all got my digital back.
