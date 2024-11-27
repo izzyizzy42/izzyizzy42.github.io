@@ -1,37 +1,37 @@
 @font-face {
    font-family: "Atkinson Hyperlegible";
-   src: url('./assets/atkinson/ah_regular.eot?#iefix') format('embedded-opentype'), 
-		url('./assets/atkinson/ah_regular.woff') format('woff'), 
-		url('./assets/atkinson/ah_regular.ttf')  format('truetype'),
-		url('./assets/atkinson/ah_regular.svg#svgFontName') format('svg');
+   src: url('../atkinson/ah_regular.eot?#iefix') format('embedded-opentype'), 
+		url('../atkinson/ah_regular.woff') format('woff'), 
+		url('../atkinson/ah_regular.ttf')  format('truetype'),
+		url('../atkinson/ah_regular.svg#svgFontName') format('svg');
 	font-style: normal;
 	font-weight: normal;
 }
 
 @font-face {
    font-family: "Atkinson Hyperlegible";
-   src: url('./assets/atkinson/ah_bold.eot?#iefix') format('embedded-opentype'), 
-		url('./assets/atkinson/ah_bold.woff') format('woff'), 
-		url('./assets/atkinson/ah_bold.ttf')  format('truetype'),
-		url('./assets/atkinson/ah_bold.svg#svgFontName') format('svg');
+   src: url('../atkinson/ah_bold.eot?#iefix') format('embedded-opentype'), 
+		url('../atkinson/ah_bold.woff') format('woff'), 
+		url('../atkinson/ah_bold.ttf')  format('truetype'),
+		url('../atkinson/ah_bold.svg#svgFontName') format('svg');
 	font-style: normal;
 	font-weight: bold;
 }
 @font-face {
    font-family: "Atkinson Hyperlegible";
-   src: url('./assets/atkinson/ah_italic.eot?#iefix') format('embedded-opentype'), 
-		url('./assets/atkinson/ah_italic.woff') format('woff'), 
-		url('./assets/atkinson/ah_italic.ttf')  format('truetype'),
-		url('./assets/atkinson/ah_italic.svg#svgFontName') format('svg');
+   src: url('../atkinson/ah_italic.eot?#iefix') format('embedded-opentype'), 
+		url('../atkinson/ah_italic.woff') format('woff'), 
+		url('../atkinson/ah_italic.ttf')  format('truetype'),
+		url('../atkinson/ah_italic.svg#svgFontName') format('svg');
    font-style: italic;
 	font-weight: normal;
 }
 @font-face {
    font-family: "Atkinson Hyperlegible";
-   src: url('./assets/atkinson/ah_bolditalic.eot?#iefix') format('embedded-opentype'), 
-		url('./assets/atkinson/ah_bolditalic.woff') format('woff'), 
-		url('./assets/atkinson/ah_bolditalic.ttf')  format('truetype'),
-		url('./assets/atkinson/ah_bolditalic.svg#svgFontName') format('svg');
+   src: url('../atkinson/ah_bolditalic.eot?#iefix') format('embedded-opentype'), 
+		url('../atkinson/ah_bolditalic.woff') format('woff'), 
+		url('../atkinson/ah_bolditalic.ttf')  format('truetype'),
+		url('../atkinson/ah_bolditalic.svg#svgFontName') format('svg');
 	font-style: italic;
 	font-weight: bold;
 }
