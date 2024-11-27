@@ -1,37 +1,33 @@
 @font-face {
    font-family: "Atkinson Hyperlegible";
-   src: url('/assets/fonts/ah_regular.eot?#iefix') format('embedded-opentype'), 
-		url('/assets/fonts/ah_regular.woff') format('woff'), 
-		url('/assets/fonts/ah_regular.ttf')  format('truetype'),
-		url('/assets/fonts/ah_regular.svg#svgFontName') format('svg');
+   src: url('../fonts/ah_regular.eot') format('embedded-opentype'), 
+		url('../fonts/ah_regular.woff') format('woff'), 
+		url('../fonts/ah_regular.ttf')  format('truetype');
 	font-style: normal;
 	font-weight: normal;
 }
 
 @font-face {
    font-family: "Atkinson Hyperlegible";
-   src: url('/assets/fonts/ah_bold.eot?#iefix') format('embedded-opentype'), 
-		url('/assets/fonts/ah_bold.woff') format('woff'), 
-		url('/assets/fonts/ah_bold.ttf')  format('truetype'),
-		url('/assets/fonts/ah_bold.svg#svgFontName') format('svg');
+   src: url('../fonts/ah_bold.eot') format('embedded-opentype'), 
+		url('../fonts/ah_bold.woff') format('woff'), 
+		url('../fonts/ah_bold.ttf')  format('truetype');
 	font-style: normal;
 	font-weight: bold;
 }
 @font-face {
    font-family: "Atkinson Hyperlegible";
-   src: url('/assets/fonts/ah_italic.eot?#iefix') format('embedded-opentype'), 
-		url('/assets/fonts/ah_italic.woff') format('woff'), 
-		url('/assets/fonts/ah_italic.ttf')  format('truetype'),
-		url('/assets/fonts/ah_italic.svg#svgFontName') format('svg');
+   src: url('../fonts/ah_italic.eot') format('embedded-opentype'), 
+		url('../fonts/ah_italic.woff') format('woff'), 
+		url('../fonts/ah_italic.ttf')  format('truetype');
    font-style: italic;
 	font-weight: normal;
 }
 @font-face {
    font-family: "Atkinson Hyperlegible";
-   src: url('/assets/fonts/ah_bolditalic.eot?#iefix') format('embedded-opentype'), 
-		url('/assets/fonts/ah_bolditalic.woff') format('woff'), 
-		url('/assets/fonts/ah_bolditalic.ttf')  format('truetype'),
-		url('/assets/fonts/ah_bolditalic.svg#svgFontName') format('svg');
+   src: url('../fonts/ah_bolditalic.eot') format('embedded-opentype'), 
+		url('../fonts/ah_bolditalic.woff') format('woff'), 
+		url('../fonts/ah_bolditalic.ttf')  format('truetype');
 	font-style: italic;
 	font-weight: bold;
 }
