@@ -150,3 +150,32 @@ img {
   max-width: 100%;
   border-radius: 5px;
 }
+
+.no-round {
+	max-width: 100%;
+	border-radius: 0px;
+}
+
+blockquote {
+	margin-left: 25px;
+	padding-left: 10px;
+	background: transparent;
+  }
+
+  blockquote:before {
+	color: #555;
+	content: open-quote;
+	font-size: 2.5em;
+	line-height: 0.0em;
+	margin-right: 0.1em;
+	vertical-align: -0.4em;
+  }
+
+  blockquote:after {
+	color: #555;
+	content: close-quote;
+	font-size: 2.5em;
+	line-height: 0.0em;
+	margin-right: 0.1em;
+	vertical-align: -0.4em;
+  }
