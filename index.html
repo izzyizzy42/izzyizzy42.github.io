@@ -53,14 +53,12 @@
         <i class="fa-solid fa-clock"></i>
         it's <span id="current-time-en"></span> on a <span id="current-day-en" style="text-transform: lowercase;"></span> in my timezone<br />
         <script>
-            const d = new Date();
-            let text = d.toLocaleTimeString('en-NL', { timeZone: 'Europe/Amsterdam', hour: 'numeric', minute: 'numeric' });
-            document.getElementById("current-time-en").innerHTML = text;
-            let day = d.toLocaleString('en-US', {weekday: 'long'});
-            document.getElementById("current-day-en").innerHTML = day;
-          </script>
-        <i class="fa-solid fa-id-card-clip"></i>
-        jackalope icon by <a href="https://clicksarts.tumblr.com/post/745601421870809088" target="_blank">clicksarts on tumblr</a><br />
+          const d = new Date();
+          let text = d.toLocaleTimeString('en-NL', { timeZone: 'Europe/Amsterdam', hour: 'numeric', minute: 'numeric' });
+          document.getElementById("current-time-en").innerHTML = text;
+          let day = d.toLocaleString('en-US', {weekday: 'long'});
+          document.getElementById("current-day-en").innerHTML = day;
+        </script>
       <p class="tiny">S·T·T·L</p>
     </main>
   </body>
